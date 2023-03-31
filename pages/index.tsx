@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { AsideComponent } from '../components/Aside'
+import { HeaderComponent } from '../components/Header'
 import { SignupFree } from '../components/Signupfree'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <HeaderComponent />
         <AsideComponent />
         <SignupFree />
       </main>

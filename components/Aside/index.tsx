@@ -55,7 +55,7 @@ export const AsideComponent = () => {
                             menus.map((item, index) => {
                                 return (
                                     <li key={index} className={`pb-8 ${item.onPressed === true ? 'text-white' : 'text-gray-400'}`}>
-                                        <Link className="flex items-center text-xl font-semibold" href={`${item.link}`}>{item.icon}{item.title}</Link>
+                                        <Link className="flex items-center text-lg font-medium" href={`${item.link}`}>{item.icon}{item.title}</Link>
                                     </li>
                                 )
                             })
@@ -66,7 +66,7 @@ export const AsideComponent = () => {
                             othersMenu.map((item, index) => {
                                 return (
                                     <li key={index} className={`pb-8 ${item.onPressed === true ? 'text-white' : 'text-gray-400'}`}>
-                                        <Link className="flex items-center text-xl font-semibold" href={`${item.link}`}>{item.icon}{item.title}</Link>
+                                        <Link className="flex items-center text-lg font-medium" href={`${item.link}`}>{item.icon}{item.title}</Link>
                                     </li>
                                 )
                             })
@@ -79,7 +79,7 @@ export const AsideComponent = () => {
                             <Link className="flex items-center text-lg font-normal" href={`#`}>Cookies</Link>
                         </li>
                         <li className={`pb-8 text-gray-400`}>
-                            <Link className="flex items-center text-lg font-semibold text-white rounded-full border border-white w-40 px-4 py-2" href={`#`}><BiWorld size={30} className="mr-2" />English</Link>
+                            <Link className="flex items-center text-sm font-medium justify-center text-white rounded-full border border-white w-36 px-2 py-1" href={`#`}><BiWorld size={30} className="mr-2" />English</Link>
                         </li>
                     </ul>
                 </div>

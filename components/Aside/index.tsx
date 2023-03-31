@@ -48,7 +48,7 @@ const othersMenu: MenuProps[] = [
 export const AsideComponent = () => {
     return (
         <>
-            <aside className="h-[90vh] bg-black w-80 hidden lg:flex px-8 py-8 flex-col">
+            <aside className="h-[90vh] bg-black w-96 hidden lg:flex px-8 py-8 flex-col">
                 <div className="h-3/4">
                     <ul>
                         {
@@ -73,13 +73,13 @@ export const AsideComponent = () => {
                         }
                     </ul>
                 </div>
-                <div className="h-1/4">
+                <div className="h-1/4 flex flex-col justify-end">
                     <ul className="mt-12">
                         <li className={`pb-8 text-gray-400`}>
-                            <Link className="flex items-center text-lg font-normal" href={`#`}>Cookies</Link>
+                            <Link className="flex items-center text-sm font-normal" href={`#`}>Cookies</Link>
                         </li>
                         <li className={`pb-8 text-gray-400`}>
-                            <Link className="flex items-center text-sm font-medium justify-center text-white rounded-full border border-white w-36 px-2 py-1" href={`#`}><BiWorld size={30} className="mr-2" />English</Link>
+                            <Link className="flex items-center text-sm font-medium justify-center text-white rounded-full border border-white w-32 px-2 py-1" href={`#`}><BiWorld size={30} className="mr-2" />English</Link>
                         </li>
                     </ul>
                 </div>

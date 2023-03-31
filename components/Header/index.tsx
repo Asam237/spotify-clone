@@ -9,7 +9,7 @@ export const HeaderComponent = () => {
             <header className="sticky top-0 left-0 z-10">
                 <div className="h-20 bg-black flex flex-col justify-center">
                     <div className="flex justify-between lg:justify-start items-center">
-                        <div className="text-white flex items-center lg:w-80 px-8 py-8 mt-2">
+                        <div className="text-white flex items-center lg:w-96 px-8 py-8 lg:mt-6">
                             <BsSpotify color="white" className="text-4xl lg:text-5xl" />
                             <h4 className={`text-white text-xl lg:text-3xl ml-2 font-semibold`}>Spotify</h4>
                         </div>

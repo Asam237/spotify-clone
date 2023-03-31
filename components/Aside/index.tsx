@@ -13,19 +13,19 @@ interface MenuProps {
 const menus: MenuProps[] = [
     {
         title: "Home",
-        icon: <AiFillHome size={30} className="mr-8" />,
+        icon: <AiFillHome size={30} className="mr-4" />,
         link: "#home",
         onPressed: true
     },
     {
         title: "Search",
-        icon: <BsSearch size={30} className="mr-8" />,
+        icon: <BsSearch size={30} className="mr-4" />,
         link: "#search",
         onPressed: false
     },
     {
         title: "library",
-        icon: <BiLibrary size={30} className="mr-8" />,
+        icon: <BiLibrary size={30} className="mr-4" />,
         link: "#library",
         onPressed: false
     },
@@ -33,13 +33,13 @@ const menus: MenuProps[] = [
 const othersMenu: MenuProps[] = [
     {
         title: "Create Playlist",
-        icon: <BiPlus size={40} className="mr-8 text-gray-600 bg-gray-300 p-2" />,
+        icon: <BiPlus size={40} className="mr-4 text-gray-600 bg-gray-300 p-2" />,
         link: "#createplaylist",
         onPressed: false
     },
     {
         title: "Liked Songs",
-        icon: <BiLike size={40} className="mr-8 text-gray-300 bg-violet-900 p-2" />,
+        icon: <BiLike size={40} className="mr-4 text-gray-300 bg-violet-900 p-2" />,
         link: "#likedsongs",
         onPressed: false
     },
@@ -48,13 +48,13 @@ const othersMenu: MenuProps[] = [
 export const AsideComponent = () => {
     return (
         <>
-            <aside className="h-[90vh] bg-black w-80 hidden lg:flex px-6 py-8 flex-col">
+            <aside className="h-[90vh] bg-black w-80 hidden lg:flex px-8 py-8 flex-col">
                 <div className="h-3/4">
                     <ul>
                         {
                             menus.map((item, index) => {
                                 return (
-                                    <li key={index} className={`pb-8 ${item.onPressed === true ? 'text-white' : 'text-gray-400'}`}>
+                                    <li key={index} className={`pb-4 ${item.onPressed === true ? 'text-white' : 'text-gray-400'}`}>
                                         <Link className="flex items-center text-lg font-medium" href={`${item.link}`}>{item.icon}{item.title}</Link>
                                     </li>
                                 )

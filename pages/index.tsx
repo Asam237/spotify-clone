@@ -19,7 +19,7 @@ export default function Home() {
           <section className='p-4 lg:p-8 w-full h-[100vh] lg:h-[90vh]'>
             <div className='flex justify-between items-center'>
               <h4 className={`text-white text-xl lg:text-3xl font-semibold`}>Focus</h4>
-              <h4 className={`text-gray-400 text-lg lg:text-xl font-semibold hidden lg:flex`}>Show all</h4>
+              <h4 className={`text-gray-400 text-lg  font-semibold hidden lg:flex`}>Show all</h4>
             </div>
           </section>
         </main>

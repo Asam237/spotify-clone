@@ -70,7 +70,7 @@ export default function Home() {
               <h4 className={`text-white text-xl lg:text-3xl font-semibold`}>Focus</h4>
               <h4 className={`text-gray-400 text-lg  font-semibold hidden lg:flex`}>Show all</h4>
             </div>
-            <div className='flex flex-row overflow-x-scroll lg:grid lg:gap-10 lg:grid-cols-8 pt-6 lg:overflow-hidden'>
+            <div className='overflow-x-scroll flex lg:grid lg:gap-10 lg:grid-cols-8 pt-6 lg:overflow-hidden'>
               {
                 players.map((item, index) => {
                   return (

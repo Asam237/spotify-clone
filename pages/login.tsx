@@ -47,7 +47,7 @@ export default function LoginPage() {
                             <input type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-full" />
                             <label className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300">Remember me</label>
                         </div>
-                        <Button className="bg-green-500 h-14 px-12 text-sm uppercase tracking-[0.2rem]">Login</Button>
+                        <Button className="bg-green-500 h-12 lg:h-14 px-12 text-xs lg:text-base uppercase tracking-[0.2rem]">Login</Button>
                     </div>
                     <hr className="w-full" />
                     <h4 className={`text-black text-base text-center py-8 lg:text-2xl font-semibold`}>Don't have an account?</h4>

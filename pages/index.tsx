@@ -17,32 +17,32 @@ const players = [
   },
   {
     image: img2,
-    title: "Peaceful Piano",
+    title: "Deep focus",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {
     image: img3,
-    title: "Peaceful Piano",
+    title: "Instrumental Study",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {
     image: img4,
-    title: "Peaceful Piano",
+    title: "Jazz Vibes",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {
     image: img5,
-    title: "Peaceful Piano",
+    title: "Focus Flow",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {
     image: img4,
-    title: "Peaceful Piano",
+    title: "Beats to think to",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {
     image: img4,
-    title: "Peaceful Piano",
+    title: "Reading Adventure",
     subtitle: "Relax and indulge with beautiful piano pieces"
   },
   {

@@ -86,7 +86,7 @@ export default function SingupPage() {
                         <p className="text-sm">By clicking on sign-up, you agree to the <span className="text-green-700 underline">Spotify Terms and Conditions</span> and <span className="text-green-700 underline">Privacy Policy.</span></p>
                     </div>
                     <div className="mb-8 flex justify-center">
-                        <Button className="bg-green-500 h-[4.5rem] px-16">Sign up</Button>
+                        <Button className="bg-green-500 h-12 lg:h-14 px-12 lg:px-16">Sign up</Button>
                     </div>
                     <div className="mb-16 flex justify-center">
                         <p className="text-xl">Have an account? <Link href={"/login"} className="text-green-700 underline">Login.</Link></p>

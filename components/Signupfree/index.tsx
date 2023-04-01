@@ -1,4 +1,5 @@
 import { Button } from "../commons/Button"
+import Link from "next/link"
 
 export const SignupFree = () => {
     return (
@@ -11,7 +12,9 @@ export const SignupFree = () => {
                             <p className={`text-white text-lg font-medium pt-1`}>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
                         </div>
                         <div>
-                            <Button className="bg-white">Sign up free</Button>
+                            <Link href={'/signup'}>
+                                <Button className="bg-white">Sign up free</Button>
+                            </Link>
                         </div>
                     </div>
                 </div>

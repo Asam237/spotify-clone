@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsSpotify, BsFacebook, BsGoogle } from "react-icons/bs";
 import { Button } from "../components/commons/Button";
@@ -8,10 +9,12 @@ export default function SingupPage() {
         <>
             <div className="container mx-auto lg:max-w-3xl mt-16">
                 <div className="flex flex-col items-center justify-center">
-                    <div className="text-white flex items-center justify-center">
-                        <BsSpotify color="black" className="text-4xl lg:text-5xl" />
-                        <h4 className={`text-black text-xl lg:text-4xl ml-2 font-semibold`}>Spotify</h4>
-                    </div>
+                    <Link href={"/"}>
+                        <div className="text-white flex items-center justify-center">
+                            <BsSpotify color="black" className="text-4xl lg:text-5xl" />
+                            <h4 className={`text-black text-xl lg:text-4xl ml-2 font-semibold`}>Spotify</h4>
+                        </div>
+                    </Link>
                 </div>
                 <h4 className={`text-black text-xl lg:text-4xl font-semibold mt-6 lg:mt-16 text-center`}>Sign up for free to start listening.</h4>
                 <div className="mx-8 pt-6 lg:pt-12">
@@ -83,10 +86,10 @@ export default function SingupPage() {
                         <p className="text-sm">By clicking on sign-up, you agree to the <span className="text-green-700 underline">Spotify Terms and Conditions</span> and <span className="text-green-700 underline">Privacy Policy.</span></p>
                     </div>
                     <div className="mb-8 flex justify-center">
-                        <Button className="bg-green-500 h-20 px-16">Sign up</Button>
+                        <Button className="bg-green-500 h-[4.5rem] px-16">Sign up</Button>
                     </div>
                     <div className="mb-16 flex justify-center">
-                        <p className="text-xl">Have an account? <span className="text-green-700 underline">Login.</span></p>
+                        <p className="text-xl">Have an account? <Link href={"/login"} className="text-green-700 underline">Login.</Link></p>
                     </div>
                 </div>
             </div>

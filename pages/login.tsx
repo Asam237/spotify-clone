@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { AiFillFacebook } from "react-icons/ai";
 import { BsSpotify, BsFacebook, BsGoogle, BsApple } from "react-icons/bs";
 import { Button } from "../components/commons/Button";
 import { InputComponent } from "../components/commons/Input";
@@ -10,10 +9,10 @@ export default function LoginPage() {
             <div className="container mx-auto lg:max-w-3xl mt-10">
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"/"}>
-                    <div className="text-white flex items-center justify-center pb-8">
-                        <BsSpotify color="black" className="text-4xl lg:text-5xl" />
-                        <h4 className={`text-black text-xl lg:text-4xl ml-2 font-semibold`}>Spotify</h4>
-                    </div>
+                        <div className="text-white flex items-center justify-center pb-8">
+                            <BsSpotify color="black" className="text-4xl lg:text-5xl" />
+                            <h4 className={`text-black text-xl lg:text-4xl ml-2 font-semibold`}>Spotify</h4>
+                        </div>
                     </Link>
                     <hr className="w-[100vw]" />
                 </div>
@@ -53,7 +52,9 @@ export default function LoginPage() {
                     <hr className="w-full" />
                     <h4 className={`text-black text-base text-center py-8 lg:text-2xl font-semibold`}>Don't have an account?</h4>
                     <div className="mx-8 pt-4">
-                        <button className="border-[3px] tracking-[0.2rem] border-[#3B4482] w-full h-16 rounded-full flex items-center justify-center"><span className="ml-3 lg:ml-6 text-gray-600 text-xs lg:text-base uppercase">Sign up for spotify</span></button>
+                        <Link href={"/signup"}>
+                            <button className="border-[3px] tracking-[0.2rem] border-[#3B4482] w-full h-16 rounded-full flex items-center justify-center"><span className="ml-3 lg:ml-6 text-gray-600 text-xs lg:text-base uppercase">Sign up for spotify</span></button>
+                        </Link>
                     </div>
                 </div>
             </div>

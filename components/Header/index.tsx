@@ -27,8 +27,8 @@ export const HeaderComponent = () => {
                             </div>
                             <div className="text-white">
                                 <div className="flex items-center">
-                                    <Link href={'#'} className="text-gray-400 mr-10 font-medium text-xl">Sign up</Link>
-                                    <Button className="bg-white px-[2rem] py-2 text-black font-medium">Log in</Button>
+                                    <Link href={'/signup'} className="text-gray-400 mr-10 font-medium text-xl">Sign up</Link>
+                                    <Link href={'/login'}><Button className="bg-white px-[2rem] py-2 text-black font-medium">Log in</Button></Link>
                                 </div>
                             </div>
                         </div>

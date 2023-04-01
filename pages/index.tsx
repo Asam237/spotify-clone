@@ -17,7 +17,7 @@ export default function Home() {
         <HeaderComponent />
         <main className='h-full w-full bg-[#1d1d1d] flex'>
           <AsideComponent />
-          <section className='p-4 lg:p-8 w-full h-[92vh]'>
+          <section className='p-4 lg:p-8 w-full h-[90vh]'>
             <div className='flex justify-between items-center mb-2'>
               <h4 className={`text-white text-xl lg:text-3xl font-semibold`}>Focus</h4>
               <h4 className={`text-gray-400 text-lg  font-semibold hidden lg:flex`}>Show all</h4>

@@ -48,7 +48,7 @@ const othersMenu: MenuProps[] = [
 export const AsideComponent = () => {
     return (
         <>
-            <aside className="h-[90vh] bg-black w-96 hidden lg:flex px-8 py-8 flex-col">
+            <aside className="h-[90vh] bg-black w-80 hidden lg:flex px-8 py-8 flex-col">
                 <div className="h-3/4">
                     <ul>
                         {

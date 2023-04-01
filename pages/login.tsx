@@ -50,7 +50,7 @@ export default function LoginPage() {
                         <Button className="bg-green-500 h-12 lg:h-14 px-12 text-xs lg:text-base uppercase tracking-[0.2rem]">Login</Button>
                     </div>
                     <hr className="w-full" />
-                    <h4 className={`text-black text-base text-center py-8 lg:text-2xl font-semibold`}>Don't have an account?</h4>
+                    <h4 className={`text-black text-base text-center py-8 lg:text-2xl font-semibold`}>Dont have an account?</h4>
                     <div className="mx-8 pt-4 mb-16">
                         <Link href={"/signup"}>
                             <button className="border-[3px] tracking-[0.2rem] border-[#3B4482] w-full h-16 rounded-full flex items-center justify-center"><span className="ml-3 lg:ml-6 text-gray-600 text-xs lg:text-base uppercase">Sign up for spotify</span></button>

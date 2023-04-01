@@ -80,7 +80,7 @@ export default function SingupPage() {
                     </div>
                     <div className="mb-12">
                         <input type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-full" />
-                        <label className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300">Share my registration data with Spotify's content providers for marketing purposes.</label>
+                        <label className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300">Share my registration data with Spotify content providers for marketing purposes.</label>
                     </div>
                     <div className="mb-4">
                         <p className="text-sm">By clicking on sign-up, you agree to the <span className="text-green-700 underline">Spotify Terms and Conditions</span> and <span className="text-green-700 underline">Privacy Policy.</span></p>

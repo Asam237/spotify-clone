@@ -37,7 +37,7 @@ export default function SingupPage() {
                     <InputComponent placeholder="Create a password." label="Create a password" />
                     <InputComponent placeholder="What should we call you?" label="Enter a profile name." />
                     <div className="flex flex-col mb-6">
-                        <label className="text-lg pb-2">What's your date of birth?</label>
+                        <label className="text-lg pb-2">Whats your date of birth?</label>
                         <div className="flex flex-col lg:flex-row">
                             <div className="flex flex-col mr-4">
                                 <label className="text-lg pb-2">Day</label>
